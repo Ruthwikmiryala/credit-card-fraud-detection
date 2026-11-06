@@ -56,6 +56,23 @@ F1-score	:84%
 ROC-AUC     :0.9560
 PR-AUC      :0.7812
 
+## Project Visualizations
+
+### 1. Class Distribution
+Shows the imbalance between legitimate and fraudulent transactions.
+
+![Class Distribution](screenshots/class_distribution.png)
+
+### 2. Model Performance Comparison
+Compares Precision, Recall and F1-score across the five models.
+
+![Model Comparison](screenshots/model_comparison.png)
+
+### 3. Confusion Matrix
+Final evaluation of the tuned Random Forest model.
+
+![Confusion Matrix](screenshots/confusion_matrix.png)
+
 
 
 The classification threshold was selected using validation data rather than the test set.
